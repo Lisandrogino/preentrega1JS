@@ -16,7 +16,7 @@ function reservaTurno() {
     turnoHora = parseInt(prompt("Ingrese la hora en formarto de 0 a 18"));
   
     if (turnoFecha === "sabado" && (turnoHora < 7 || turnoHora > 14)) {
-      alert("Adolfo Car Detaile está cerrado los sábados a partir de las 14:00. Abrimos a las 8:00.");
+      alert("Adolfo Car Detaile atiende de 8.00 a 14.00 hs");
 
     } else if (turnoFecha === "domingo") {
       alert("Adolfo Car Detarile no trabaja los domingos.");
@@ -42,7 +42,7 @@ for (let i = cantidadTurnos; i > 0; i--) {
     console.log(cantidadTurnos + i)
 }
 
-let trabajoARealizar= parseInt(prompt("Selecciona un Vehìculo  lavar:  1- Automóvil  2- Utilitario  3  Camioneta"))
+let trabajoARealizar= parseInt(prompt("Selecciona un Vehìculo  lavar:  1- Automóvil  2- Utilitario  3-  Camioneta"))
 
 const precioConDescuento= function(precio) {return precio - (precio * 0.10)};
 
