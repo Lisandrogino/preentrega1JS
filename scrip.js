@@ -15,7 +15,7 @@ function reservaTurno() {
     turnoFecha = prompt("Ingrese el día del turno");
     turnoHora = parseInt(prompt("Ingrese la hora en formarto de 0 a 18"));
   
-    if (turnoFecha === "sábado" && (turnoHora >= 14 && turnoHora < 7)) {
+    if (turnoFecha = "sabado" && (turnoHora >= 7 && turnoHora < 14)) {
       alert("Adolfo Car Detaile está cerrado los sábados a partir de las 14:00. Abrimos a las 8:00.");
 
     } else if (turnoFecha === "domingo") {
